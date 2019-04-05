@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/images" />
+
+
+
+
+    <TextView
+        android:text="Happy Birthday Sai Sree Balaji !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+
+        android:textSize="36sp"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="From,Rohit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:textSize="46sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>
